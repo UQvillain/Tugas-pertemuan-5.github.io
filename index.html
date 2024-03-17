@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata</title>
+    <link rel="stylesheet" href="css/gaya.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">Pendaftaran</h1>
+      <a href="#" class="logo">Makan<span>Gratis</span>.</a>
+      <form action="#">
+        <!-- main nya -->
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <!-- inputan nama -->
+            <label for="nama"> <i class="bx bx-user"></i> Nama</label>
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              placeholder="Masukan nama"
+            />
+          </div>
+
+          <!-- inputan email -->
+          <div class="user-input-box">
+            <label for="email"><i class="bx bx-envelope"></i> Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Masukan Email"
+            />
+          </div>
+          <!-- inputan nim -->
+          <div class="user-input-box">
+            <label for="nim"> <i class="bx bx-user-pin"></i> NIM</label>
+            <input type="text" id="nim" name="nim" placeholder="Masukan NIM" />
+          </div>
+          <!-- inputan password-->
+          <div class="user-input-box">
+            <label for="password"><i class="bx bx-lock-alt"></i>Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Buat password"
+            />
+          </div>
+
+          <!-- inputan alamat -->
+          <div class="user-input-box">
+            <label for="alamat"><i class="bx bx-notepad"></i>Alamat</label>
+            <textarea name="alamat" id="alamat" cols="20" rows="10"></textarea>
+          </div>
+        </div>
+        <!-- inputan jurusan-->
+        <div class="user-input-box">
+          <label class="ProgramStudi"
+            ><i class="bx bxs-graduation"></i> Program Studi</label
+          >
+          <select name="Program Studi" id="Program Studi">
+            <option value="Rekayasa perangkat lunak">
+              Rekayasa perangkat lunak
+            </option>
+            <option value="Teknik komputer">Teknik komputer</option>
+            <option value="PGSD">PGSD</option>
+            <option value="PGPAUD">PGPAUD</option>
+            <option value="Pendidikan Multimedia">Pendidikan Multimedia</option>
+          </select>
+        </div>
+        <!-- inputan jenis kelamin -->
+        <div class="jeniskelamin-box">
+          <span class="jeniskelamin"
+            ><i class="bx bx-male-female"></i>Jenis Kelamin</span
+          >
+          <div class="kategori">
+            <input type="radio" name="gender" id="Pria" />
+            <label for="Pria">Pria</label>
+            <input type="radio" name="gender" id="Wanita" />
+            <label for="Wanita">wanita</label>
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <a href="Login.html" class="form-submit-btn">Submit</a>
+        </div>
+        </form>
+    </div>
+  </body>
+</html>
